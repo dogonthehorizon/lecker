@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lecker"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Freire <dogonthehorizon@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+lecker = "lecker.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+crawl4ai = "^0.4.23"
+typer = "^0.15.1"
+rich = "^13.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
