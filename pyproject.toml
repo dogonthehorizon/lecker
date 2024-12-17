@@ -2,7 +2,7 @@
 name = "lecker"
 version = "0.1.0"
 description = ""
-authors = ["Fernando Freire <dogonthehorizon@gmail.com>"]
+authors = ["Fernando Freire"]
 readme = "README.md"
 
 [tool.poetry.scripts]
